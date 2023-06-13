@@ -1,8 +1,9 @@
-let a= document.getElementById('price_marakas');
-let b=document.getElementById ('price_pyramid');
-let c=document.getElementById ('price_xylophone');
+let a=document.getElementById('price_marakas').value;
+//let b=document.getElementById ('price_pyramid').value;
+//let c=document.getElementById ('price_xylophone').value;   
 
 function sum (){
-result=a+b+c;
+    let a=document.getElementById('price_marakas').value;
+    console.log(a);
 }
-document.getElementById('sum').innerHTML=result;
+//document.getElementById('sum').value=a+b+c;}
