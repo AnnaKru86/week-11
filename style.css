@@ -133,15 +133,3 @@ button{
 .coupon{
     justify-content: center;
 }
-input{
-    height: 25px;
-    width: 100px;
-    border: 1px solid blue;
-}
-span{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    grid-column: 4/5;
-    justify-self: start;
-    align-self: center;
-}

@@ -1,6 +1,6 @@
-let a= document.getElementById ("input_1");
+let a= document.getElementById ("input_1").value;
 let button=document.getElementById ("button");
-   button.addEventListener('click', function()) {
-   result=a*a;
-    document.getElementById ("input_2").value=result;
-   }
+ button.onclick = function quatro() {
+ result=a*a;
+document.getElementById ("input_2").value=result;
+   }      

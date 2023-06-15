@@ -11,46 +11,38 @@
     <h1>Корзина</h1>
     <div class="container">
       <div class="model_marakas">
-        <img id="photo_marakas" src="../images/marakasi.jpg" alt="marakas" />
+        <img id="photo_marakas" src="./images/marakasi.jpg" alt="marakas" />
         <div class="details_marakas">
           <h2>Маракасы</h2>
           <h3>Материал:дерево</h3>
           <h3>Количество:1</h3>
         </div>
-        <input id="price_marakas" type="number" />
-        <span>руб.</span>
+        <div id="price_marakas">550</div>
       </div>
       <div class="model_pyramid">
-        <img id="photo_pyramid" src="../images/piramida.jpg" alt="pyramid" />
+        <img id="photo_pyramid" src="./images/piramida.jpg" alt="pyramid" />
         <div class="details_pyramid">
           <h2>Пирамида "Радуга"</h2>
           <h3>Материал:дерево</h3>
           <h3>Количество:1</h3>
         </div>
-        <input id="price_pyramid" type="number" />
-        <span>руб.</span>
+        <div id="price_pyramid">1050</div>
       </div>
       <div class="model_xylophone">
-        <img
-          id="photo_xylophone"
-          src="../images/ksilofon.jpg"
-          alt="xylophone"
-        />
+        <img id="photo_xylophone" src="./images/ksilofon.jpg" alt="xylophone" />
         <div class="details_xylophone">
           <h2>Ксилофон</h2>
           <h3>Материал:металл, дерево</h3>
           <h3>Количество:1</h3>
         </div>
-        <input id="price_xylophone" type="number" />
-        <span>руб.</span>
+        <div id="price_xylophone">1200</div>
       </div>
       <div class="coupon">
-        <button>Использовать купон 20%</button>
+        <input type=button value = "Использовать купон 20%" onclick="sum()"></input>
       </div>
       <h2 id="total">Итого:</h2>
       <div class="sum">
-        <input id="sum" type="number" />
-        <span>руб.</span>
+        <input id="sum" type="text" />
       </div>
     </div>
     <script src="./home11.js"></script>
